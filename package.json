@@ -10,6 +10,7 @@
     "pre-commit-posts": "husky install && npx husky add .husky/pre-commit \"npm run cache-posts && git add cache/data.js\""
   },
   "scriptsComments": {
+    "cache-posts": "this allows search feature to work with vercel and should be used after any blog post changes or just use pre-commit-posts to do this automatically after every commit",
     "pre-commit-posts": "use this after npm install so that cache-posts will automatically be ran with every git commit"
   },
   "dependencies": {
